@@ -1864,3 +1864,49 @@ LogConfig: Set CVar [[r.Occlusion.SingleRHIThreadStall:1]]
 [2023.08.17-01.33.09:988][880]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/g1umbprotochange.g1umbprotochange:PersistentLevel.StaticMeshActor_UAID_00D8617158F721A001_1180560933
 [2023.08.17-01.33.09:988][880]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/g1umbprotochange.g1umbprotochange:PersistentLevel.StaticMeshActor_UAID_00D8617158F721A001_1176961932
 [2023.08.17-01.33.09:988][880]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/g1umbprotochange.g1umbprotochange:PersistentLevel.StaticMeshActor_UAID_00D8617158F721A001_1170342931
+[2023.08.17-01.35.09:377][921]LogShaderCompilers: Display: ================================================
+[2023.08.17-01.35.09:377][921]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.08.17-01.35.09:377][921]LogShaderCompilers: Display: Total job queries 110, among them cache hits 7 (6.36%)
+[2023.08.17-01.35.09:377][921]LogShaderCompilers: Display: Tracking 97 distinct input hashes that result in 62 distinct outputs (63.92%)
+[2023.08.17-01.35.09:377][921]LogShaderCompilers: Display: RAM used: 1.97 MiB of 1.60 GiB budget. Usage: 0.12%
+[2023.08.17-01.35.09:377][921]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.08.17-01.35.09:378][921]LogShaderCompilers: Display: Shaders Compiled: 69
+[2023.08.17-01.35.09:378][921]LogShaderCompilers: Display: Jobs assigned 73, completed 69 (94.52%)
+[2023.08.17-01.35.09:378][921]LogShaderCompilers: Display: Average time worker was idle: 10.67 s
+[2023.08.17-01.35.09:378][921]LogShaderCompilers: Display: Time job spent in pending queue: average 0.68 s, longest 2.41 s
+[2023.08.17-01.35.09:378][921]LogShaderCompilers: Display: Job execution time: average 0.62 s, max 1.64 s
+[2023.08.17-01.35.09:378][921]LogShaderCompilers: Display: Job life time (pending + execution): average 1.33 s, max 2.82
+[2023.08.17-01.35.09:378][921]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 12.65 s
+[2023.08.17-01.35.09:378][921]LogShaderCompilers: Display: Jobs were issued in 73 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.08.17-01.35.09:378][921]LogShaderCompilers: Display: Average processing rate: 5.45 jobs/sec
+[2023.08.17-01.35.09:378][921]LogShaderCompilers: Display: Total thread time: 32.019 s
+[2023.08.17-01.35.09:378][921]LogShaderCompilers: Display: Total thread preprocess time: 1.273 s
+[2023.08.17-01.35.09:378][921]LogShaderCompilers: Display: Percentage time preprocessing: 3.97%
+[2023.08.17-01.35.09:378][921]LogShaderCompilers: Display: Effective parallelization: 2.53 (times faster than compiling all shaders on one thread). Compare with number of workers: 4
+[2023.08.17-01.35.09:378][921]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.08.17-01.35.09:378][921]LogShaderCompilers: Display:             TShadowDepthVSVertexShadowDepth_VirtualShadowMap (compiled    2 times, average 0.78 sec, max 1.05 sec, min 0.52 sec)
+[2023.08.17-01.35.09:378][921]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled   15 times, average 0.60 sec, max 1.25 sec, min 0.47 sec)
+[2023.08.17-01.35.09:378][921]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled   15 times, average 0.57 sec, max 1.54 sec, min 0.45 sec)
+[2023.08.17-01.35.09:378][921]LogShaderCompilers: Display:                                                  FHitProxyVS (compiled    2 times, average 0.55 sec, max 0.69 sec, min 0.41 sec)
+[2023.08.17-01.35.09:378][921]LogShaderCompilers: Display:                                                  FHitProxyPS (compiled    2 times, average 0.44 sec, max 0.59 sec, min 0.30 sec)
+[2023.08.17-01.35.09:378][921]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.08.17-01.35.09:378][921]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 28.31% of total time (compiled   15 times, average 0.60 sec, max 1.25 sec, min 0.47 sec)
+[2023.08.17-01.35.09:378][921]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 26.73% of total time (compiled   15 times, average 0.57 sec, max 1.54 sec, min 0.45 sec)
+[2023.08.17-01.35.09:378][921]LogShaderCompilers: Display:                                                 FLumenCardVS - 18.09% of total time (compiled   14 times, average 0.41 sec, max 0.61 sec, min 0.35 sec)
+[2023.08.17-01.35.09:378][921]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 13.48% of total time (compiled   13 times, average 0.33 sec, max 0.67 sec, min 0.28 sec)
+[2023.08.17-01.35.09:378][921]LogShaderCompilers: Display:             TShadowDepthVSVertexShadowDepth_VirtualShadowMap - 4.90% of total time (compiled    2 times, average 0.78 sec, max 1.05 sec, min 0.52 sec)
+[2023.08.17-01.35.09:378][921]LogShaderCompilers: Display: ================================================
+[2023.08.17-01.35.17:476][769]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Engine/VREditor/BasicMeshes/SM_Room_01) ...
+[2023.08.17-01.35.21:079][985]LogMeshUtilities: Finished distance field build in 3.6s - 126x126x119 sparse distance field, 2.2Mb total, 0.1Mb always loaded, 69% occupied, 21258 triangles, SM_Room_01
+[2023.08.17-01.35.47:512][ 34]Cmd: DELETE
+[2023.08.17-01.35.47:512][ 34]Cmd: ACTOR DELETE
+[2023.08.17-01.35.47:514][ 34]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.08.17-01.35.47:522][ 34]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2023.08.17-01.35.47:525][ 34]LogEditorActor: Deleted 1 Actors (0.013 secs)
+[2023.08.17-01.35.47:536][ 34]LogSlate: Took 0.005284 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2023.08.17-01.35.54:122][544]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2023.08.17-01.35.54:125][544]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.08.17-01.35.54:191][544]LogUObjectHash: Compacting FUObjectHashTables data took   0.28ms
+[2023.08.17-01.35.54:199][544]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2023.08.17-01.35.54:208][544]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2023.08.17-01.35.54:214][544]LogFileHelpers: InternalPromptForCheckoutAndSave took 89 ms (total: 14.7 sec)
