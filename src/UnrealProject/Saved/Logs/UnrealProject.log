@@ -1910,3 +1910,121 @@ LogConfig: Set CVar [[r.Occlusion.SingleRHIThreadStall:1]]
 [2023.08.17-01.35.54:199][544]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
 [2023.08.17-01.35.54:208][544]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
 [2023.08.17-01.35.54:214][544]LogFileHelpers: InternalPromptForCheckoutAndSave took 89 ms (total: 14.7 sec)
+[2023.08.17-01.36.56:426][802]LogUObjectHash: Compacting FUObjectHashTables data took   0.31ms
+[2023.08.17-01.36.56:427][802]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/g1umbprotochange' took 0.009
+[2023.08.17-01.42.34:932][358]LogShaderCompilers: Display: ================================================
+[2023.08.17-01.42.34:932][358]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.08.17-01.42.34:932][358]LogShaderCompilers: Display: Total job queries 166, among them cache hits 7 (4.22%)
+[2023.08.17-01.42.34:932][358]LogShaderCompilers: Display: Tracking 132 distinct input hashes that result in 83 distinct outputs (62.88%)
+[2023.08.17-01.42.34:932][358]LogShaderCompilers: Display: RAM used: 2.70 MiB of 1.60 GiB budget. Usage: 0.16%
+[2023.08.17-01.42.34:932][358]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.08.17-01.42.34:932][358]LogShaderCompilers: Display: Shaders Compiled: 104
+[2023.08.17-01.42.34:932][358]LogShaderCompilers: Display: Jobs assigned 108, completed 104 (96.30%)
+[2023.08.17-01.42.34:932][358]LogShaderCompilers: Display: Average time worker was idle: 24.00 s
+[2023.08.17-01.42.34:932][358]LogShaderCompilers: Display: Time job spent in pending queue: average 0.51 s, longest 2.41 s
+[2023.08.17-01.42.34:932][358]LogShaderCompilers: Display: Job execution time: average 0.62 s, max 1.64 s
+[2023.08.17-01.42.34:932][358]LogShaderCompilers: Display: Job life time (pending + execution): average 1.14 s, max 2.82
+[2023.08.17-01.42.34:932][358]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 19.70 s
+[2023.08.17-01.42.34:932][358]LogShaderCompilers: Display: Jobs were issued in 108 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.08.17-01.42.34:932][358]LogShaderCompilers: Display: Average processing rate: 5.28 jobs/sec
+[2023.08.17-01.42.34:932][358]LogShaderCompilers: Display: Total thread time: 48.912 s
+[2023.08.17-01.42.34:932][358]LogShaderCompilers: Display: Total thread preprocess time: 1.966 s
+[2023.08.17-01.42.34:932][358]LogShaderCompilers: Display: Percentage time preprocessing: 4.02%
+[2023.08.17-01.42.34:932][358]LogShaderCompilers: Display: Effective parallelization: 2.48 (times faster than compiling all shaders on one thread). Compare with number of workers: 4
+[2023.08.17-01.42.34:932][358]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.08.17-01.42.34:932][358]LogShaderCompilers: Display:             TShadowDepthVSVertexShadowDepth_VirtualShadowMap (compiled    3 times, average 0.69 sec, max 1.05 sec, min 0.50 sec)
+[2023.08.17-01.42.34:932][358]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled   22 times, average 0.63 sec, max 1.47 sec, min 0.41 sec)
+[2023.08.17-01.42.34:932][358]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled   22 times, average 0.59 sec, max 1.54 sec, min 0.42 sec)
+[2023.08.17-01.42.34:932][358]LogShaderCompilers: Display:                                                  FHitProxyVS (compiled    3 times, average 0.49 sec, max 0.69 sec, min 0.37 sec)
+[2023.08.17-01.42.34:932][358]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled   20 times, average 0.45 sec, max 1.07 sec, min 0.35 sec)
+[2023.08.17-01.42.34:932][358]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.08.17-01.42.34:932][358]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 28.13% of total time (compiled   22 times, average 0.63 sec, max 1.47 sec, min 0.41 sec)
+[2023.08.17-01.42.34:932][358]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 26.38% of total time (compiled   22 times, average 0.59 sec, max 1.54 sec, min 0.42 sec)
+[2023.08.17-01.42.34:932][358]LogShaderCompilers: Display:                                                 FLumenCardVS - 18.41% of total time (compiled   20 times, average 0.45 sec, max 1.07 sec, min 0.35 sec)
+[2023.08.17-01.42.34:932][358]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 15.37% of total time (compiled   21 times, average 0.36 sec, max 0.88 sec, min 0.27 sec)
+[2023.08.17-01.42.34:932][358]LogShaderCompilers: Display:             TShadowDepthVSVertexShadowDepth_VirtualShadowMap - 4.24% of total time (compiled    3 times, average 0.69 sec, max 1.05 sec, min 0.50 sec)
+[2023.08.17-01.42.34:932][358]LogShaderCompilers: Display: ================================================
+[2023.08.17-01.45.09:855][384]LogUObjectHash: Compacting FUObjectHashTables data took   0.26ms
+[2023.08.17-01.45.09:865][384]LogUObjectHash: Compacting FUObjectHashTables data took   0.24ms
+[2023.08.17-01.46.00:695][384]LogSlate: Window 'Save Content' being destroyed
+[2023.08.17-01.46.00:731][384]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.08.17-01.46.00:785][384]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/g1umbprotochange/9/W7/84BE9NK3RKZ4Z7TPFGSFBX
+[2023.08.17-01.46.00:785][384]LogSavePackage: Moving 'C:/DEV/DOGstudios/dog-FirstGame/src/UnrealProject/Saved/84BE9NK3RKZ4Z7TPFGSFBX6EC4A586467F6848522CD08B3D4648EA.tmp' to 'C:/DEV/DOGstudios/dog-FirstGame/src/UnrealProject/Content/__ExternalActors__/g1umbprotochange/9/W7/84BE9NK3RKZ4Z7TPFGSFBX.uasset'
+[2023.08.17-01.46.00:794][384]LogFileHelpers: InternalPromptForCheckoutAndSave took 63 ms (total: 14.8 sec)
+[2023.08.17-01.46.00:855][384]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.08.17-01.46.00:857][384]LogAssetEditorSubsystem: Opening Asset editor for World /Game/CustomContent/BaseLevel.BaseLevel
+[2023.08.17-01.46.00:858][384]Cmd: MAP LOAD FILE="C:/DEV/DOGstudios/dog-FirstGame/src/UnrealProject/Content/CustomContent/BaseLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2023.08.17-01.46.00:858][384]LightingResults: New page: Lighting Build
+[2023.08.17-01.46.00:858][384]LoadErrors: New page: Loading map: BaseLevel.umap
+[2023.08.17-01.46.00:944][384]LogWorld: UWorld::CleanupWorld for g1umbprotochange, bSessionEnded=true, bCleanupResources=true
+[2023.08.17-01.46.00:944][384]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.17-01.46.00:949][384]LogContentBundle: [g1umbprotochange(Standalone)] Deleting container.
+[2023.08.17-01.46.00:949][384]MapCheck: New page: Map Check
+[2023.08.17-01.46.00:949][384]LightingResults: New page: Lighting Build
+[2023.08.17-01.46.00:956][384]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.08.17-01.46.00:968][384]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2023.08.17-01.46.00:971][384]LogWorld: UWorld::CleanupWorld for BaseLevel, bSessionEnded=true, bCleanupResources=true
+[2023.08.17-01.46.00:971][384]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.17-01.46.00:980][384]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2023.08.17-01.46.00:988][384]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2023.08.17-01.46.00:992][384]LogAudio: Display: Audio Device (ID: 1) registered with world 'BaseLevel'.
+[2023.08.17-01.46.00:993][384]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.08.17-01.46.00:993][384]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.08.17-01.46.00:993][384]LogAIModule: Creating AISystem for world BaseLevel
+[2023.08.17-01.46.00:993][384]LogWorldPartition: ULevel::OnLevelLoaded(BaseLevel)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=0)
+[2023.08.17-01.46.00:993][384]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.08.17-01.46.00:994][384]LogWorldPartition: UWorldPartition::Initialize(Asset=BaseLevel, IsEditor=1, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2023.08.17-01.46.01:284][384]LogContentBundle: [BaseLevel(Standalone)] Creating new contrainer.
+[2023.08.17-01.46.01:284][384]LogWorldPartition: Display: WorldPartition initialize took 290 ms (total: 703 ms)
+[2023.08.17-01.46.01:706][384]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.08.17-01.46.01:717][384]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2023.08.17-01.46.01:720][384]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.08.17-01.46.01:720][384]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.707ms to complete.
+[2023.08.17-01.46.01:720][384]LogFileHelpers: Loading map 'BaseLevel' took 0.863
+[2023.08.17-01.46.01:741][384]AssetCheck: New page: Asset Save: StaticMeshActor_UAID_00D8617158F721A001_1170342931
+[2023.08.17-01.46.01:886][384]LogShaderCompilers: Display: ================================================
+[2023.08.17-01.46.01:886][384]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.08.17-01.46.01:886][384]LogShaderCompilers: Display: Total job queries 179, among them cache hits 14 (7.82%)
+[2023.08.17-01.46.01:886][384]LogShaderCompilers: Display: Tracking 165 distinct input hashes that result in 97 distinct outputs (58.79%)
+[2023.08.17-01.46.01:886][384]LogShaderCompilers: Display: RAM used: 3.35 MiB of 1.60 GiB budget. Usage: 0.20%
+[2023.08.17-01.46.01:886][384]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.08.17-01.46.01:886][384]LogShaderCompilers: Display: Shaders Compiled: 137
+[2023.08.17-01.46.01:886][384]LogShaderCompilers: Display: Jobs assigned 137, completed 137 (100.00%)
+[2023.08.17-01.46.01:886][384]LogShaderCompilers: Display: Average time worker was idle: 22.91 s
+[2023.08.17-01.46.01:886][384]LogShaderCompilers: Display: Time job spent in pending queue: average 0.79 s, longest 3.51 s
+[2023.08.17-01.46.01:886][384]LogShaderCompilers: Display: Job execution time: average 0.61 s, max 1.64 s
+[2023.08.17-01.46.01:886][384]LogShaderCompilers: Display: Job life time (pending + execution): average 1.41 s, max 4.02
+[2023.08.17-01.46.01:886][384]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 24.46 s
+[2023.08.17-01.46.01:886][384]LogShaderCompilers: Display: Jobs were issued in 137 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.08.17-01.46.01:886][384]LogShaderCompilers: Display: Average processing rate: 5.60 jobs/sec
+[2023.08.17-01.46.01:886][384]LogShaderCompilers: Display: Total thread time: 64.852 s
+[2023.08.17-01.46.01:886][384]LogShaderCompilers: Display: Total thread preprocess time: 2.612 s
+[2023.08.17-01.46.01:886][384]LogShaderCompilers: Display: Percentage time preprocessing: 4.03%
+[2023.08.17-01.46.01:886][384]LogShaderCompilers: Display: Effective parallelization: 2.65 (times faster than compiling all shaders on one thread). Compare with number of workers: 4
+[2023.08.17-01.46.01:886][384]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.08.17-01.46.01:886][384]LogShaderCompilers: Display:             TShadowDepthVSVertexShadowDepth_VirtualShadowMap (compiled    3 times, average 0.69 sec, max 1.05 sec, min 0.50 sec)
+[2023.08.17-01.46.01:886][384]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled   31 times, average 0.61 sec, max 1.47 sec, min 0.41 sec)
+[2023.08.17-01.46.01:886][384]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled   31 times, average 0.57 sec, max 1.54 sec, min 0.42 sec)
+[2023.08.17-01.46.01:886][384]LogShaderCompilers: Display:                                                  FHitProxyVS (compiled    4 times, average 0.47 sec, max 0.69 sec, min 0.37 sec)
+[2023.08.17-01.46.01:886][384]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled   27 times, average 0.45 sec, max 1.07 sec, min 0.35 sec)
+[2023.08.17-01.46.01:886][384]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.08.17-01.46.01:886][384]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 29.24% of total time (compiled   31 times, average 0.61 sec, max 1.47 sec, min 0.41 sec)
+[2023.08.17-01.46.01:886][384]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 27.45% of total time (compiled   31 times, average 0.57 sec, max 1.54 sec, min 0.42 sec)
+[2023.08.17-01.46.01:886][384]LogShaderCompilers: Display:                                                 FLumenCardVS - 18.74% of total time (compiled   27 times, average 0.45 sec, max 1.07 sec, min 0.35 sec)
+[2023.08.17-01.46.01:886][384]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 14.65% of total time (compiled   27 times, average 0.35 sec, max 0.88 sec, min 0.27 sec)
+[2023.08.17-01.46.01:886][384]LogShaderCompilers: Display:             TShadowDepthVSVertexShadowDepth_VirtualShadowMap - 3.19% of total time (compiled    3 times, average 0.69 sec, max 1.05 sec, min 0.50 sec)
+[2023.08.17-01.46.01:886][384]LogShaderCompilers: Display: ================================================
+[2023.08.17-01.54.37:765][486]LogEditorBookmarks: Warning: FBookmarkTypeToolsImpl::JumpToBookmark - Null Bookmark at index 4
+[2023.08.17-01.55.07:818][ 38]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/StarterContent/Shapes/Shape_Pipe.Shape_Pipe
+[2023.08.17-01.55.07:818][ 38]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/StarterContent/Shapes/Shape_Pipe.Shape_Pipe
+[2023.08.17-01.55.07:818][ 38]LogActorFactory: Actor Factory spawned StaticMesh /Game/StarterContent/Shapes/Shape_Pipe.Shape_Pipe as actor: StaticMeshActor /Game/CustomContent/BaseLevel.BaseLevel:PersistentLevel.StaticMeshActor_0
+[2023.08.17-01.55.12:987][572]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/StarterContent/Shapes/Shape_Pipe.Shape_Pipe
+[2023.08.17-01.55.12:987][572]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/StarterContent/Shapes/Shape_Pipe.Shape_Pipe
+[2023.08.17-01.55.12:988][572]LogActorFactory: Actor Factory spawned StaticMesh /Game/StarterContent/Shapes/Shape_Pipe.Shape_Pipe as actor: StaticMeshActor /Game/CustomContent/BaseLevel.BaseLevel:PersistentLevel.StaticMeshActor_UAID_00D8617158F722A001_1470218111
+[2023.08.17-01.55.17:009][932]LogUObjectHash: Compacting FUObjectHashTables data took   0.31ms
+[2023.08.17-01.55.17:012][932]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.08.17-01.55.17:066][932]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/CustomContent/BaseLevel/C/5K/JN3R3EMG0TIRQNZ64G0IHR
+[2023.08.17-01.55.17:066][932]LogSavePackage: Moving 'C:/DEV/DOGstudios/dog-FirstGame/src/UnrealProject/Saved/JN3R3EMG0TIRQNZ64G0IHRDC2EDF724CDE1A88E4B07D8F890C1A1F.tmp' to 'C:/DEV/DOGstudios/dog-FirstGame/src/UnrealProject/Content/__ExternalActors__/CustomContent/BaseLevel/C/5K/JN3R3EMG0TIRQNZ64G0IHR.uasset'
+[2023.08.17-01.55.17:103][932]LogFileHelpers: InternalPromptForCheckoutAndSave took 90 ms (total: 14.9 sec)
+[2023.08.17-01.55.17:106][932]AssetCheck: New page: Asset Save: StaticMeshActor_UAID_00D8617158F722A001_1470218111
+[2023.08.17-01.55.17:106][932]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/CustomContent/BaseLevel.BaseLevel:PersistentLevel.StaticMeshActor_UAID_00D8617158F722A001_1470218111
