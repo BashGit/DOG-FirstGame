@@ -1799,3 +1799,68 @@ LogConfig: Set CVar [[r.Occlusion.SingleRHIThreadStall:1]]
 [2023.08.17-01.27.02:311][877]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'ActorTextureStreamingBuildDataComponent_0': WorldPartitionHLOD /Engine/Maps/Templates/OpenWorld.OpenWorld:PersistentLevel.HLOD0_Instancing_000000003106dab4
 [2023.08.17-01.27.02:311][877]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'LandscapeMeshProxyComponent_6': WorldPartitionHLOD /Engine/Maps/Templates/OpenWorld.OpenWorld:PersistentLevel.HLOD0_Instancing_000000003106dab4
 [2023.08.17-01.28.03:795][223]LogDerivedDataCache: C:/Users/Jake/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:02.083 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 1716 files in 2506 folders with total size 91 MiB.
+[2023.08.17-01.29.36:325][814]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2023.08.17-01.31.02:427][422]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.08.17-01.31.17:649][485]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.08.17-01.31.54:266][979]LogSlate: Took 0.000253 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.08.17-01.31.54:951][ 49]LogShaderCompilers: Display: ================================================
+[2023.08.17-01.31.54:951][ 49]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.08.17-01.31.54:951][ 49]LogShaderCompilers: Display: Total job queries 38, among them cache hits 0 (0.00%)
+[2023.08.17-01.31.54:951][ 49]LogShaderCompilers: Display: Tracking 29 distinct input hashes that result in 20 distinct outputs (68.97%)
+[2023.08.17-01.31.54:951][ 49]LogShaderCompilers: Display: RAM used: 545.45 KiB of 1.60 GiB budget. Usage: 0.03%
+[2023.08.17-01.31.54:951][ 49]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.08.17-01.31.54:951][ 49]LogShaderCompilers: Display: Shaders Compiled: 1
+[2023.08.17-01.31.54:951][ 49]LogShaderCompilers: Display: Jobs assigned 5, completed 1 (20.00%)
+[2023.08.17-01.31.54:951][ 49]LogShaderCompilers: Display: Average time worker was idle: 0.00 s
+[2023.08.17-01.31.54:951][ 49]LogShaderCompilers: Display: Time job spent in pending queue: average 0.20 s, longest 0.63 s
+[2023.08.17-01.31.54:951][ 49]LogShaderCompilers: Display: Job execution time: average 0.53 s, max 0.53 s
+[2023.08.17-01.31.54:951][ 49]LogShaderCompilers: Display: Job life time (pending + execution): average 0.63 s, max 0.63
+[2023.08.17-01.31.54:951][ 49]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.63 s
+[2023.08.17-01.31.54:951][ 49]LogShaderCompilers: Display: Jobs were issued in 5 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.08.17-01.31.54:951][ 49]LogShaderCompilers: Display: Average processing rate: 1.59 jobs/sec
+[2023.08.17-01.31.54:951][ 49]LogShaderCompilers: Display: Total thread time: 0.302 s
+[2023.08.17-01.31.54:951][ 49]LogShaderCompilers: Display: Total thread preprocess time: 0.016 s
+[2023.08.17-01.31.54:951][ 49]LogShaderCompilers: Display: Percentage time preprocessing: 5.45%
+[2023.08.17-01.31.54:951][ 49]LogShaderCompilers: Display: Effective parallelization: 0.48 (times faster than compiling all shaders on one thread). Compare with number of workers: 4
+[2023.08.17-01.31.54:951][ 49]LogShaderCompilers: Display: Top 1 most expensive shader types by average time:
+[2023.08.17-01.31.54:951][ 49]LogShaderCompilers: Display:                                          FLumenCardPS<false> (compiled    1 times, average 0.30 sec, max 0.30 sec, min 0.30 sec)
+[2023.08.17-01.31.54:951][ 49]LogShaderCompilers: Display: Top 1 shader types by total compile time:
+[2023.08.17-01.31.54:951][ 49]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 100.00% of total time (compiled    1 times, average 0.30 sec, max 0.30 sec, min 0.30 sec)
+[2023.08.17-01.31.54:951][ 49]LogShaderCompilers: Display: ================================================
+[2023.08.17-01.32.13:425][299]Cmd: DELETE
+[2023.08.17-01.32.13:425][299]Cmd: ACTOR DELETE
+[2023.08.17-01.32.13:430][299]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.08.17-01.32.13:440][299]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2023.08.17-01.32.13:441][299]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2023.08.17-01.32.14:583][371]Cmd: DELETE
+[2023.08.17-01.32.14:583][371]Cmd: ACTOR DELETE
+[2023.08.17-01.32.14:585][371]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.08.17-01.32.14:594][371]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2023.08.17-01.32.14:595][371]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2023.08.17-01.32.15:398][420]Cmd: DELETE
+[2023.08.17-01.32.15:398][420]Cmd: ACTOR DELETE
+[2023.08.17-01.32.15:400][420]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.08.17-01.32.15:410][420]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2023.08.17-01.32.15:411][420]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2023.08.17-01.33.09:852][880]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2023.08.17-01.33.09:855][880]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.08.17-01.33.09:919][880]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2023.08.17-01.33.09:927][880]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2023.08.17-01.33.09:936][880]LogUObjectHash: Compacting FUObjectHashTables data took   0.19ms
+[2023.08.17-01.33.09:939][880]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/g1umbprotochange/E/24/IEUKPMOL9JTTX8QL0C1TKJ
+[2023.08.17-01.33.09:939][880]LogSavePackage: Moving 'C:/DEV/DOGstudios/dog-FirstGame/src/UnrealProject/Saved/IEUKPMOL9JTTX8QL0C1TKJ01F2AB8844EB7C188B19099764402C9A.tmp' to 'C:/DEV/DOGstudios/dog-FirstGame/src/UnrealProject/Content/__ExternalActors__/g1umbprotochange/E/24/IEUKPMOL9JTTX8QL0C1TKJ.uasset'
+[2023.08.17-01.33.09:941][880]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/g1umbprotochange/9/W7/84BE9NK3RKZ4Z7TPFGSFBX
+[2023.08.17-01.33.09:941][880]LogSavePackage: Moving 'C:/DEV/DOGstudios/dog-FirstGame/src/UnrealProject/Saved/84BE9NK3RKZ4Z7TPFGSFBX35C71E5545548706B394068510538648.tmp' to 'C:/DEV/DOGstudios/dog-FirstGame/src/UnrealProject/Content/__ExternalActors__/g1umbprotochange/9/W7/84BE9NK3RKZ4Z7TPFGSFBX.uasset'
+[2023.08.17-01.33.09:943][880]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/g1umbprotochange/B/OJ/R38W22XM8KVQD0KL4X7S9F
+[2023.08.17-01.33.09:943][880]LogSavePackage: Moving 'C:/DEV/DOGstudios/dog-FirstGame/src/UnrealProject/Saved/R38W22XM8KVQD0KL4X7S9F655DB3CC48F22394D4E0F1B710DD9445.tmp' to 'C:/DEV/DOGstudios/dog-FirstGame/src/UnrealProject/Content/__ExternalActors__/g1umbprotochange/B/OJ/R38W22XM8KVQD0KL4X7S9F.uasset'
+[2023.08.17-01.33.09:945][880]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/g1umbprotochange/0/WL/WVJDRAQC0W8HU6TSO5WTWI
+[2023.08.17-01.33.09:945][880]LogSavePackage: Moving 'C:/DEV/DOGstudios/dog-FirstGame/src/UnrealProject/Saved/WVJDRAQC0W8HU6TSO5WTWIEC43D54341EEB9F4D9D495841C9A37CA.tmp' to 'C:/DEV/DOGstudios/dog-FirstGame/src/UnrealProject/Content/__ExternalActors__/g1umbprotochange/0/WL/WVJDRAQC0W8HU6TSO5WTWI.uasset'
+[2023.08.17-01.33.09:947][880]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/g1umbprotochange/B/MY/FGCTWVPTB0531H6417M5OK
+[2023.08.17-01.33.09:948][880]LogSavePackage: Moving 'C:/DEV/DOGstudios/dog-FirstGame/src/UnrealProject/Saved/FGCTWVPTB0531H6417M5OK5495332D4C736977A9BA27BACEE765E3.tmp' to 'C:/DEV/DOGstudios/dog-FirstGame/src/UnrealProject/Content/__ExternalActors__/g1umbprotochange/B/MY/FGCTWVPTB0531H6417M5OK.uasset'
+[2023.08.17-01.33.09:984][880]LogFileHelpers: InternalPromptForCheckoutAndSave took 128 ms (total: 14.7 sec)
+[2023.08.17-01.33.09:988][880]AssetCheck: New page: Asset Save: multiple assets
+[2023.08.17-01.33.09:988][880]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/g1umbprotochange.g1umbprotochange:PersistentLevel.StaticMeshActor_UAID_00D8617158F720A001_1883472751
+[2023.08.17-01.33.09:988][880]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/g1umbprotochange.g1umbprotochange:PersistentLevel.StaticMeshActor_UAID_00D8617158F721A001_1199960934
+[2023.08.17-01.33.09:988][880]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/g1umbprotochange.g1umbprotochange:PersistentLevel.StaticMeshActor_UAID_00D8617158F721A001_1180560933
+[2023.08.17-01.33.09:988][880]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/g1umbprotochange.g1umbprotochange:PersistentLevel.StaticMeshActor_UAID_00D8617158F721A001_1176961932
+[2023.08.17-01.33.09:988][880]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/g1umbprotochange.g1umbprotochange:PersistentLevel.StaticMeshActor_UAID_00D8617158F721A001_1170342931
